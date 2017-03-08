@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400,700');
+html {
+width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background-color: rgb(16, 18, 22);
+    display: block;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background-color: rgb(16, 18, 22);
+    display: block;
+    font-family: 'Raleway';
+  
+}
+
+#root{
+  background-color: rgb(16, 18, 22);
+}
+
+.wrapperBody {
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  height: 100%;
+  display: block;
+  overflow:hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+
+}
+
+.centered {
+  margin: auto;
+  /* bring your own prefixes */
+}
+
+a.nav{
+  color:black;
+
+}
+
+a.nav:hover{
+  color:black;
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+
+}
+
+.bold{
+  font-weight: 800;
+}
+
+.full2 {
+  width: 100%;
+  padding-top: 2em;
+
+}
+.yellow {
+  background-color: #f99200;
+}
+
+.orange {
+  background-color: #f34c0c;
+}
+
+.purplei {
+  background-color: #e3196e;
+}
+
