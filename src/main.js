@@ -31,9 +31,9 @@ class Main extends Component {
 
       <Grid id="footer">
 
-        <Col md={4}><NavElement color='yellow' header='Production' lead='Design, branding & media.' image={productionIcon}/></Col>
-        <Col md={4}><NavElement color='orange' header='Engineering' lead='Technology & web development' image={holdingsIcon}/></Col>
-        <Col md={4}><NavElement color='purple' header='Holdings' lead='Partnership & products' image={engineeringIcon}/></Col>
+        <Col md={4}><NavElement color='yellow' header='production' lead='Design, branding & media.' image={productionIcon}/></Col>
+        <Col md={4}><NavElement color='orange' header='engineering' lead='Technology & web development' image={holdingsIcon}/></Col>
+        <Col md={4}><NavElement color='purple' header='holdings' lead='Partnership & products' image={engineeringIcon}/></Col>
       
        </Grid> 
 

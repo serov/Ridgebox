@@ -12,6 +12,10 @@
   display: inline-block;
 }
 
+.logolink{
+  cursor: pointer;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -36,4 +40,5 @@ li a:hover {
     text-decoration: none;
     color: white;
     border-bottom: 4px solid rgb(241, 216, 50);
+
 }

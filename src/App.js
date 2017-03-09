@@ -13,6 +13,9 @@ import engineeringIcon from './nav/img/engineering-icon.png'
 import VideoSplash from './videoSplash/videoSplash.js';
 import Main from './main.js';
 import Production from './production/production.js';
+import Engineering from './engineering/engineering.js';
+import Holdings from './holdings/holdings.js';
+import { RouteTransition } from 'react-router-transition';
 
 
 class App extends Component {
@@ -25,9 +28,12 @@ class App extends Component {
 
     return (
      <Router history={browserHistory}>
-      <Route path='/' component={VideoSplash}></Route>
+      <RouteTransition pathname='/' component={VideoSplash} atEnter={{ opacity: 0 }} atLeave={{ opacity: 0 }} atActive={{ opacity: 1}}></RouteTransition>
+   	  <Route path='/' component={VideoSplash}></Route>
       <Route path='/start' component={Main}></Route>
-      <Route path='engineering' component={Production}></Route>
+      <Route path='production' component={Production}></Route>
+      <Route path='engineering' component={Engineering}></Route>
+      <Route path='Holdings' component={Holdings}></Route>
      </Router>
     );
   }

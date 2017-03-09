@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Grid, Col, Modal, Row } from 'react-bootstrap';
-import './promoblock.css';
+import './promoblockeng.css';
 
 
 
-class PromoBlock extends Component {
+class PromoBlockEng extends Component {
 
 
 
@@ -15,15 +15,14 @@ class PromoBlock extends Component {
     return (
       <div>
         <Grid>
-        <Row>
+        <Row className='top-buffer'>
         	<Col xs={9} md={4}>
         		<p className='h0'>{this.props.header}</p>
-        		<p className='description'>{this.props.description}</p>
-              <form action="/example/">
-                <button className='button' type="submit">{this.props.buttontext}</button>
-              </form>
-
         	</Col>
+          <Col xs={9} md={4}>
+              <span className='description'>{this.props.description}</span>
+              
+          </Col>
           </Row>
           <Row>
         	<Col md={8}></Col> 
@@ -36,4 +35,4 @@ class PromoBlock extends Component {
   }
 }
 
-export default PromoBlock;
+export default PromoBlockEng;

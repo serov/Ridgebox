@@ -17,7 +17,7 @@ class NavElement extends Component {
     return (
     		
      <div id='footer'>
-     <Link className='nav' to='engineering'>
+     <Link className='nav' to={this.props.header}>
      	<div className={classNames('full2', 'menu-item', this.props.color)}>
      			<div style={floatLeft}><p className='ridgebox'>Ridgebox</p>
 	     			<p className='menu-accent'>{this.props.header}</p>

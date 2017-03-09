@@ -17,13 +17,13 @@ class Headertop extends Component {
 
      <Grid >
      <div id='header'>
-     <Col className='' xs={12} md={4}><Link to='/start'><img src={Logosmall}/></Link></Col>
+     <Col className='' xs={12} md={4}><Link className='logolink' to='/start'><img src={Logosmall}/></Link></Col>
      <Col className='text-center' xs={12} md={8}>
         <ul className='nav2' >
-          <li><a href="default.asp">Home</a></li>
-          <li><a href="news.asp">Production</a></li>
-          <li><a href="contact.asp">Engineering</a></li>
-          <li><a href="about.asp">Holdings</a></li>
+          <li><Link to='/start'>Home</Link></li>
+          <li><Link to='/production'>Production</Link></li>
+          <li><Link to='/engineering'>Engineering</Link></li>
+          <li><Link to='/Holdings'>Holdings</Link></li>
         </ul>
      </Col>
      </div>

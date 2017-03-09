@@ -17,8 +17,10 @@ margin-top: 80px
 	font-family: 'Raleway';
 	letter-spacing: 0.1em;
 	line-height: 2em;
-	margin-top: 3em;
-	margin-bottom: 3em;
+	margin-bottom: 0em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 
 }
 
@@ -28,6 +30,10 @@ margin-top: 80px
 
 .promoimage {
 
+}
+
+.top-buffer{
+    margin-top: 30em;
 }
 
 .button {
@@ -43,6 +49,7 @@ margin-top: 80px
     font-weight: 600;
     font-size: 16px;
     letter-spacing: 0.15em;
+    margin-top: 2em;
 
 }
 
