@@ -18,6 +18,10 @@ class Holdings extends Component {
 
     return (
       <div className='wrapperHoldings'>
+	      	<div className='floatBlock yellow1'></div>
+		    <div className='floatBlock red1'></div>
+		    <div className='floatBlock green1'></div>
+		    <div className='floatBlock purple1'></div>
         <Headertop />
         <Promoblock header={['Pro', <br/>, 'du', <br/>, 'ction']} bgimage={prbg} description='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.' buttontext='Ask a question'/>
       </div> 

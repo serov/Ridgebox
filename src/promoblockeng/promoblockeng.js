@@ -20,7 +20,7 @@ class PromoBlockEng extends Component {
         		<p className='h0'>{this.props.header}</p>
         	</Col>
           <Col xs={9} md={4}>
-              <span className='description'>{this.props.description}</span>
+              <span className='descriptioneng'>{this.props.description}</span>
               
           </Col>
           </Row>
