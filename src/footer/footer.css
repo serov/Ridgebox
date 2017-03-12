@@ -3,12 +3,12 @@
   margin-bottom: 15em;
 }
 
-.nav2{
+.navFooter{
 
   color: white;
-  font-size: 1.2em;
+  font-size: 1em;
   font-family: 'Raleway', sans-serif;
-  font-weight: 600;
+  font-weight: 300;
   display: inline-block;
 }
 
@@ -32,9 +32,27 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+li a.footerNav:hover {
     text-decoration: none;
     color: white;
-    border-bottom: 4px solid rgb(241, 216, 50);
-
+    border-bottom: none;
+    font-weight: 800;
 }
+
+.copyright{
+  color: white;
+  font-family: 'Raleway';
+  letter-spacing: 0.1em;
+}
+
+.copyrightsign {
+  padding-right: 3px;
+}
+
+.floatBlockFooter {
+  width: 100%;
+  height: 10px;
+  float: left;
+  background-color: rgb(46,48,57);
+}
+

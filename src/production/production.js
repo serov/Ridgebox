@@ -6,9 +6,11 @@ import Promoblock from '.././promoblock/promoblock.js';
 import Partners from './partners/partners.js'; 
 import Quote from './quote/quote.js';
 import Team from './team/team.js';
+import Contacts from '.././contacts/contacts.js'
 import Footer from '.././footer/footer.js';
 import pricon from '.././promoblock/img/pricon.png';
 import prbg from '.././promoblock/img/prbg.jpg';
+
 
 
 class Production extends Component {
@@ -29,6 +31,7 @@ class Production extends Component {
         <Partners />
         <Quote />
         <Team />
+        <Contacts />
         <Footer />
       </div> 
     );

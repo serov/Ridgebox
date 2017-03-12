@@ -16,10 +16,10 @@ class PromoBlockEng extends Component {
       <div>
         <Grid>
         <Row className='top-buffer'>
-        	<Col xs={9} md={4}>
+        	<Col xs={4} md={4}>
         		<p className='h0'>{this.props.header}</p>
         	</Col>
-          <Col xs={9} md={4}>
+          <Col xs={8} md={4}>
               <span className='descriptioneng'>{this.props.description}</span>
               
           </Col>
@@ -27,7 +27,6 @@ class PromoBlockEng extends Component {
           <Row>
         	<Col md={8}></Col> 
           </Row>
-          <hr className='hrstyle'/>
         </Grid>
 
       </div> 
