@@ -12,15 +12,19 @@ margin-top: 80px
 	line-height: 0.8em;
 }
 
+.descriptioneng {
+    color: white;
+    font-family: 'Raleway';
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    margin-bottom: 0em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
 @media (max-width: 1201px) {
-    .h0 {
-        font-size: 8em;
-        color: white;
-        font-family: Raleway;
-        font-weight: 100;
-        text-transform: uppercase;
-        line-height: 0.8em;
-    }
 
     .descriptioneng {
         color: white;
@@ -36,17 +40,18 @@ margin-top: 80px
 
 }
 
-.descriptioneng {
-	color: white;
-	font-family: 'Raleway';
-	letter-spacing: 0.1em;
-	line-height: 2em;
-	margin-bottom: 0em;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+@media (max-width: 1024px) {
+
+
+    .descriptioneng {
+        font-family: 'Raleway';
+        bottom: -100px;
+        left: 0;
+    }
 
 }
+
+
 
 
 

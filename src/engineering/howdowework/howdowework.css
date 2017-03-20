@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
 
 body {
-
+	font-family: 'Raleway';
+	color: white;
 }
 
 body {
@@ -44,26 +45,65 @@ body {
 	position: absolute;
 	left: -50%;
 	top: -300px;
+	height: 200px;
 }
 
-.technologies {
-	border: solid 1px white;
+@media (max-width: 1199px) {
+	.laptop {
+		left: -70%;
+	}
+
 }
 
-.link {
+@media (max-width: 1024px) {
+	.laptop {
+		left: -50%;
+		height: 500px;
+		top: -230px;}
+
+}
+
+
+
+.all-caps {
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	font-weight: 600;
+	color: white;
+	font-family: 'Raleway';
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.technologies img{
+	padding-left: 15px;
+}
+
+.stroke {
+	border: 1px #2e3039 solid;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.p-list {
 	color: rgb(237,79,46);
 	font-weight: 600;
 	letter-spacing: 0.1em;
 	font-family: 'Raleway';
+	padding-left: 45px;
+	list-style-image: url('img/eng_bullit.svg');
 }
 
-.link:before{
-	content: '·   '
+.p-link {
+	color: rgb(237,79,46);
 }
 
-.link:hover {
+
+.p-link:hover {
 	color: rgb(237,79,46);
 	font-weight: 600;
 	letter-spacing: 0.1em;
 	font-family: 'Raleway';
+	cursor: pointer;
 }

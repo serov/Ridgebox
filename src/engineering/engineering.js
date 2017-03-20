@@ -4,6 +4,8 @@ import './engineering.css';
 import Headertop from '.././headertop/headertop.js';
 import Howdowework from './howdowework/howdowework.js';
 import Promoblockeng from '.././promoblockeng/promoblockeng.js';
+import Graphs from './graphs/graphs.js';
+import Footer from '.././footer/footer.js';
 import pricon from '.././promoblock/img/pricon.png';
 import engbg from '.././promoblock/img/engbg.jpg';
 
@@ -26,6 +28,8 @@ class Engineering extends Component {
         <Headertop />
         <Promoblockeng header={['engi', <br/>, 'nee', <br/>, 'ring']} bgimage={engbg} description='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.' buttontext='Ask a question'/>
         <Howdowework />
+        <Graphs />
+        <Footer />
       </div> 
     );
   }

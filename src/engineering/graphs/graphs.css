@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+
+.wrapperGraphs{
+	margin-top: 3em;
+	background: url('img/graphs_bg.jpg');
+	color: white !important;
+	font-family: 'Raleway' !important;
+	letter-spacing: 0.1em !important;
+}
+
+h5 {
+	color: white;
+}
+
+.meter { 
+	height: 20px;  /* Can be anything */
+	position: relative;
+	display: inline-block;
+	background: #bbbcc0;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+	width: 60%;
+	vertical-align: bottom;
+
+}
+
+.active { 
+	background: #e34c2d;
+	width: 20%;
+	margin-left: 10px;
+
+}
+
+
+.margin-top-30{
+	margin-top: 30px;
+}
+
+.graph-text {
+	padding-right: 10px;
+
+}
+
+.margin-bottom-20 {
+	margin-bottom: 20px;
+}
+
+.margin-bottom-30 {
+	margin-bottom: 30px;
+	line-height: 3em;
+}

@@ -25,10 +25,10 @@ class Headertop extends Component {
         </Col>
      <Col className='text-center' xs={12} md={8}>
         <ul className='navFooter' >
-          <li><Link className='footerNav' to='/start'>Home</Link></li>
-          <li><Link className='footerNav' to='/production'>Production</Link></li>
-          <li><Link className='footerNav' to='/engineering'>Engineering</Link></li>
-          <li><Link className='footerNav' to='/Holdings'>Holdings</Link></li>
+          <li className='header-footer-li'><Link className='header-footer-a' to='/start'>Home</Link></li>
+          <li className='header-footer-li'><Link className='header-footer-a' to='/production'>Production</Link></li>
+          <li className='header-footer-li'><Link className='header-footer-a' to='/engineering'>Engineering</Link></li>
+          <li className='header-footer-li'><Link className='header-footer-a' to='/Holdings'>Holdings</Link></li>
         </ul>
      </Col>
      <div className='floatBlockFooter'></div>
