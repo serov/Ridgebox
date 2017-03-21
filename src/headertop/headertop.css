@@ -17,11 +17,17 @@
   letter-spacing: 0.1em;
 }
 
+
 .logolink{
   cursor: pointer;
 }
 
-
+@media (max-width: 1024px){
+  .logolink{
+  cursor: pointer;
+  margin: 40%;
+}
+}
 
 .header-top-li {
     float: left;

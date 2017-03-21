@@ -36,11 +36,19 @@ class Team extends Component {
 					</div>
 
 					<div className='margin-bottom-20'><span className='graph-text'>Ridgebox</span><div className='meter active'>
-					  <span className='length'></span></div>~1,5x less
+					  <span className='length'></span></div>~2x less
 					</div>
 					<p className='margin-top-30'>
 		      		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></Col>
-		      	<Col md={3}><h5>Additonal costs</h5></Col>
+		      	<Col md={3}><h5 className='margin-bottom-30'><strong>Additonal costs</strong> </h5>
+		      	<ul>
+		      		<li>Team management</li>
+		      		<li>Office Fees</li>
+		      		<li>Human Resourses</li>
+		      	</ul>
+		      	<p><ul className='active-list'><li>We take
+					everything on us</li></ul></p>
+		      	</Col>
 		     </Row>
 	     </Grid>
       </div> 
