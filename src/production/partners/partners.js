@@ -18,7 +18,7 @@ class Partners extends Component {
 		     	<Col xs={12} md={6} className='text-center'>
 		     		<img src={weiss} />
 		     		<p className='bodytext'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
-		     		<p><a className='link' href='#'>See what we doing for Weiss</a></p>
+		     		<p className='link-text'><a className='link' href='#'>See what we doing for Weiss</a></p>
 		     	</Col>
 		     	<Col xs={12} md={6} className='text-center'>
 		     		<img src={brandbox} />

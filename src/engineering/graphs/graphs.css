@@ -2,7 +2,7 @@
 
 .wrapperGraphs{
 	margin-top: 3em;
-	background: url('img/graphs_bg.jpg');
+	background: url('img/graphs_bg.jpg') no-repeat;
 	color: white !important;
 	font-family: 'Raleway' !important;
 	letter-spacing: 0.1em !important;
@@ -10,6 +10,10 @@
 
 h5 {
 	color: white;
+}
+
+h2 {
+	margin-bottom: 5px;
 }
 
 .meter { 

@@ -45,6 +45,11 @@ body {
 	font-weight: 600;
 	letter-spacing: 0.1em;
 	font-family: 'Raleway';
+
+}
+
+.link-text {
+	margin-bottom: 70px;
 }
 
 .link:before{

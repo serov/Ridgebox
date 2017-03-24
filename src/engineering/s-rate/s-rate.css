@@ -1,0 +1,47 @@
+
+
+
+.wrappersrate{
+   background-color: rgb(22, 24, 34);
+}
+
+.hundred {
+	width: 100%;
+    height: auto;
+	max-width: 100%;
+}
+
+.srate-subline {
+	color: white;
+	font-family: 'Raleway';
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	margin-top: -50px;
+	text-align: center;
+
+}
+
+.quoteText {
+	color: white;
+	font-family: 'Raleway';
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.07em;
+	font-weight: 100;
+	text-align: center;
+	font-size: 5em;
+	margin-bottom: 1em;
+	margin-top: 150px;
+}
+
+@media all and (min-width: 1200px) {
+    .quoteText{
+        font-size: 7em;
+    }
+}
+
+.markquote{
+	background-color: rgb(241, 216, 50);;
+	color: black;
+	padding: 10px 30px 10px 30px;
+}
