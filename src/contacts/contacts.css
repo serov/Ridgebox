@@ -2,7 +2,14 @@
 
 
 .wrapperContacts{
-   background: url(img/engbg.jpg) no-repeat top center; 
-   background-color: rgb(22, 24, 34);
-   height: 400px;
+	background-color: rgb(22, 24, 34);
+	height: 600px;
+}
+
+
+
+.content {
+	position: absulute;
+	left: 300px;
+	margin-bottom: 100px;
 }

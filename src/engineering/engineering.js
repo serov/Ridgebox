@@ -6,6 +6,7 @@ import Howdowework from './howdowework/howdowework.js';
 import Promoblockeng from '.././promoblockeng/promoblockeng.js';
 import Srate from './s-rate/s-rate.js';
 import Graphs from './graphs/graphs.js';
+import Contacts from '.././contacts/contacts.js'
 import Footer from '.././footer/footer.js';
 import pricon from '.././promoblock/img/pricon.png';
 import engbg from '.././promoblock/img/engbg.jpg';
@@ -31,6 +32,7 @@ class Engineering extends Component {
         <Howdowework />
         <Graphs />
         <Srate />
+        <Contacts />
         <Footer />
       </div> 
     );

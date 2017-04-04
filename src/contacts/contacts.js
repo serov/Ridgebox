@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import GoogleMap from './googlemap.js'
+import StyledMapExample from './googlemap.js'
+import Form from './form.js'
+import './contacts.css';
+import { Grid, Col, Row } from 'react-bootstrap'
 
 
 class Contacts extends Component {
@@ -9,9 +12,12 @@ class Contacts extends Component {
   render() {
 
     return(
-    <div>
-       
+    <div className='wrapperContacts'>
+		<Form/>
+		<StyledMapExample />
+	    
     </div>
+
     )
     }
 
