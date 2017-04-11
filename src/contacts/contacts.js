@@ -13,8 +13,9 @@ class Contacts extends Component {
 
     return(
     <div className='wrapperContacts'>
-		<Form/>
+		
 		<StyledMapExample />
+		<Form/>
 	    
     </div>
 
