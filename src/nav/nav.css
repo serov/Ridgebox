@@ -6,12 +6,28 @@
   height: 110px;
 }
 
-#footer:hover {
-  position: absolute;
-  bottom: -30px;
+@media(max-width:1200px){
+  #footer {
+    margin-left: -20px;
+    margin-right: 0px;
+    width: 102%;
+  }
 
-  height: 110px;
 }
+
+@media(max-width:990px){
+  #footer {
+    position: relative;
+    margin-top: 10px;
+    height: 130px;
+    bottom: 10px;
+  }
+
+
+}
+
+
+
 
 .menu-item{
   padding: 20px; 
@@ -22,10 +38,22 @@
 
 }
 
-.menu-item:hover {
+
+
+@media(min-width:990px) {
+
+  #footer:hover {
+  position: absolute;
+  bottom: -30px;
+  height: 110px;
+}
+
+  .menu-item:hover {
   margin-top: -20px;
   box-shadow: 0 6px 30px rgba(0,0,0,1);
   cursor: pointer;
+}
+
 }
 
 .logo{
@@ -50,6 +78,7 @@
 .full2:hover {
   width: 100%;
   padding-top: 2em;
+
 }
 
 @keyframes appear {
